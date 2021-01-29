@@ -12,7 +12,7 @@ class Employee:
         Employee.num_of_employees += 1
 
     def fullname(self):
-        return f"{first} {last}"
+        return f"{self.first} {self.last}"
 
     def apply_raise(self):
         self.pay = int(self.pay * self.raise_amount)
